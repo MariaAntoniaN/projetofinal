@@ -30,9 +30,9 @@ async function setup(){
   // Estilização do texto
   textSize(32);
   textAlign(CENTER, CENTER);
-  font = await loadFont('/font/SpecialElite-Regular.ttf');
+  font = await loadFont('font/SpecialElite-Regular.ttf');
   textFont(font);
-  typing = await loadSound('/mp3/typing.MP3');
+  typing = await loadSound('mp3/typing.MP3');
 
   //texto inicial
   let fraseInicial = "Escreva a Sua Própria Arte";
